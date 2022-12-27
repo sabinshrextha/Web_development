@@ -1,0 +1,12 @@
+a[target="_self"]{
+    color: pink;
+    background-color: aqua;
+    font-size: 30px;
+    line-height: 400%;
+}
+a[target="_parent"]{
+    text-align: center;
+    background-color: aqua;  
+    color: yellow;
+    font-size: 30px;
+}

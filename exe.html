@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programs</title>
+</head>
+<body>
+    <script>
+        document.write("<h2>Q1.</h2>")
+    function coverter(c){
+
+        far = c*(9/5)+32;
+        return far;
+    }
+    document.write("<h2>"+coverter(2)+"</h2")
+        document.write("<br>")
+
+    function odd_even(user_number){
+        document.write("<h2>Q2.<h2>")
+        // let user_number = 13;
+        document.write("<h3>The number is " + user_number+ "</h3>")
+        if (user_number % 2 ==0) {
+            document.write("<h2> It's even.</h2>")
+        }
+        else{
+            document.write("</h2> It's odd. </h2>")
+        }
+
+    }
+    odd_even(13)
+    document.write("<h2>Q4.<h2>")
+        function reverseString(str) {
+        document.write("The original string is:" + str)
+        document.write("<br>")
+        c = str.split("").reverse().join("");
+        document.write("The reveresed string is: "+ c + "<br>")
+        if(c == str){
+            document.write("The string is palindrome.")
+        }
+        else{
+            document.write("The string is not palindorme.")
+        }
+    }
+    reverseString("hello");
+
+ 
+let day;
+switch (new Date().getMonth()) {
+case 0:
+        day = "jan";
+        break;
+    case 1:
+        day = "feb";
+        break;
+    case 2:
+        day = "march";
+        break;
+    case 3:
+        day = "apr";
+        break;
+    case 4:
+        day = "may";
+        break;
+    case 5:
+        day = "june";
+        break;
+
+
+
+    case 6:
+        day = "july";
+        break;
+    case 7:
+        day = "aug";
+        break;
+    case 8:
+        day = "sep";
+        break;
+    case 9:
+        day = "oct";
+        break;
+    case 10:
+        day = "nov";
+        break;
+    case 11:
+        day = "dec";
+        break;
+}
+document.write("<h2>Q3.<h2>")
+
+document.write("<h2>The month is: " + day + "</h2>" )
+
+
+document.write("<h2>Q5.<h2>")
+document.write("<h2>Dates Method<h2>")
+document.write(new Date().getMonth())
+document.write("<br>")
+
+document.write(new Date().getDay())
+document.write("<br>")
+
+document.write(new Date().getFullYear())
+document.write("<br>")
+document.write(Date)
+
+
+
+   
+
+
+
+
+    </script>
+</body>
+</html>
+
+
